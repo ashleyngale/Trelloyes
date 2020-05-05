@@ -1,7 +1,7 @@
 import React from 'react';
 import './Messages.css'
 
-export default function item(props) {
+export default function Item(props) {
   const item = +props.amount
    
   if (!item.length){
@@ -12,5 +12,3 @@ export default function item(props) {
     return <span>{props.item}</span>
   }
 }
-
-export default Item;

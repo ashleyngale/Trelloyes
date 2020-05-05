@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import List from './List'
 import './App.css';
-import item from './Items.test.js';
+import Item from './Items.test.js';
 
 class App extends Component {
   static defaultProps = {
@@ -13,7 +13,7 @@ class App extends Component {
 
   render() {
     <item name="item_clicked" amount={0}/>
-  <item name="clicked" unread={13}/>
+  <item name="clicked" amount={13}/>
     const { store } = this.props
     return (
       <item item={item}/>

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Messages from './Items';
 import { createRenderer } from 'react-dom/test-utils';
-import item from './item.js';
+import Item from './Items.js';
 
 describe('Item component', ()=> {
 it('renders without crashing', () => {
