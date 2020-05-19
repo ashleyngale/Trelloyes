@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import List from './List'
 import './App.css';
-import Item from './Items.test.js';
 
 class App extends Component {
   static defaultProps = {
@@ -12,11 +11,8 @@ class App extends Component {
   };
 
   render() {
-    <item name="item_clicked" amount={0}/>
-  <item name="clicked" amount={13}/>
     const { store } = this.props
     return (
-      <item item={item}/>
       <main className='App'>
         <header className='App-header'>
           <h1>Trelloyes!</h1>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Messages.css'
+
 
 export default function Item(props) {
   const item = +props.amount
